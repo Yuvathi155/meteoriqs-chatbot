@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MeteoriQs AI Assistant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="chat-widget">
+  <!-- HEADER -->
+  <div class="chat-header">
+    <img src="logo.png" alt="MeteoriQs" class="logo" />
+
+    <div class="header-text">
+      <div class="bot-name">MeteoriQs Assistant</div>
+      <div class="bot-status">
+        <span class="status-dot"></span>
+        Online
+      </div>
+    </div>
+
+    <img src="avatar.png" alt="Assistant Avatar" class="header-avatar" />
+  </div>
+
+  <!-- MESSAGES -->
+  <div id="chat-box" class="chat-box"></div>
+
+  <!-- QUICK REPLIES -->
+  <div id="quick-replies" class="quick-replies"></div>
+
+  <!-- INPUT -->
+  <div class="input-row">
+    <input
+      id="user-input"
+      type="text"
+      placeholder="Type your message..."
+      autocomplete="off"
+    />
+    <button id="send-btn">Send</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+

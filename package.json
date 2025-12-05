@@ -1,0 +1,16 @@
+{
+  "name": "meteoriqs-final-chatbot",
+  "version": "1.0.0",
+  "description": "MeteoriQs chatbot with frontend + Node.js backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "MeteoriQs Technologies",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
+
